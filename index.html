@@ -1,10 +1,51 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>VANTORA</title><meta name="theme-color" content="#07080b"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2307080b'/%3E%3Cpath d='M6 8l10 17L26 8' stroke='%234d7cff' stroke-width='3' fill='none'/%3E%3C/svg%3E"><link rel="stylesheet" href="css/main.css"></head><body>
-<div id="intro" aria-hidden="true"><b>VANTORA</b></div>
-<canvas id="fx" aria-hidden="true"></canvas><div class="aur" aria-hidden="true"></div><div class="gridbg" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div><div id="prog" aria-hidden="true"></div>
-<header id="hd"><a href="#/home" class="logo">VANTORA</a><button id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button></header>
-<nav id="menu" aria-label="Main menu"></nav>
-<main id="view" tabindex="-1"></main>
-<footer id="ft"><span>VANTORA · Frontend-only demo. No data leaves your device.</span><a href="#/credits">Made By ForWarodH28</a></footer>
-<button id="top" aria-label="Back to top">↑</button><dialog id="dlg" aria-label="Dialog"></dialog><div id="toast" role="status" aria-live="polite"></div>
-<noscript><p style="padding:2rem">VANTORA needs JavaScript.</p></noscript>
-<script src="config/social-links.js"></script><script src="js/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>VANTORA</title>
+  <meta name="theme-color" content="#07080b">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2307080b'/%3E%3Cpath d='M6 8l10 17L26 8' stroke='%234d7cff' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+
+  <!-- FIX: file CSS berada di root repository -->
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div id="intro" aria-hidden="true"><b>VANTORA</b></div>
+
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <div class="aur" aria-hidden="true"></div>
+  <div class="gridbg" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div id="prog" aria-hidden="true"></div>
+
+  <header id="hd">
+    <a href="#/home" class="logo">VANTORA</a>
+    <button id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <i></i><i></i><i></i>
+    </button>
+  </header>
+
+  <nav id="menu" aria-label="Main menu"></nav>
+  <main id="view" tabindex="-1"></main>
+
+  <footer id="ft">
+    <span>VANTORA · Frontend-only demo. No data leaves your device.</span>
+    <a href="#/credits">Made By ForWarodH28</a>
+  </footer>
+
+  <button id="top" aria-label="Back to top">↑</button>
+  <dialog id="dlg" aria-label="Dialog"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <p style="padding:2rem">VANTORA needs JavaScript.</p>
+  </noscript>
+
+  <!-- FIX: kedua file JavaScript berada di root repository -->
+  <script src="./social-links.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
